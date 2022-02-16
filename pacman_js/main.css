@@ -1,4 +1,4 @@
-/* General Rules */
+
 *{
   margin:0;
   padding:0;
@@ -12,12 +12,11 @@ body{
   background-position: center;
 }
 
-/* COMMENT THIS IN DEBUG */
+
 p{
   visibility: hidden;
 }
 
-/* Header */
 .jumbotron{
   width: 500px;
   max-width: 100%;
@@ -29,7 +28,7 @@ p{
   height: 100px;
 }
 
-/* Main */
+
 #main-pack{
   width: 1200px;
   max-width: 100%;
@@ -49,7 +48,7 @@ p{
   display: none;
 }
 
-/* Utility */
+/* Utilidade */
 .bfull{
   border: 2px solid blue;
 }
@@ -82,7 +81,7 @@ p{
   background-repeat:no-repeat;
 }
 
-/* Phantom Move */
+/* Pfantasmas Movimentos */
 .phantom{
   position: absolute;
   height: 80%;
@@ -157,7 +156,7 @@ p{
   }
 }
 
-/* Packman Keyboard */
+/* Pac */
 
 #packman{
   position: absolute;

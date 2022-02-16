@@ -1,0 +1,169 @@
+/* General Rules */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body{
+  background-image: url('img/back.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+/* COMMENT THIS IN DEBUG */
+p{
+  visibility: hidden;
+}
+
+/* Header */
+.jumbotron{
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.jumbotron img{
+  height: 100px;
+}
+
+/* Main */
+#main-pack{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  background-color: black;
+}
+
+.lose{
+  font-size: 80px;
+  color: yellow;
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%,-50%);
+  display: none;
+}
+
+/* Utility */
+.bfull{
+  border: 2px solid blue;
+}
+
+.btop{
+  border-top: 2px solid blue;
+}
+
+.brx{
+  border-right: 2px solid blue;
+}
+
+.bbot{
+  border-bottom: 2px solid blue;
+}
+
+.blx{
+  border-left: 2px solid blue;
+}
+
+.relative{
+  position: relative;
+}
+
+/* Backgrounds */
+.col-1{
+  background-image: url('img/heat.jpeg');
+  background-size: 40%;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+/* Phantom Move */
+.phantom{
+  position: absolute;
+  height: 80%;
+}
+
+.phantom-rose{
+  left: 15px;
+  top: 5px;
+  animation: rose 5s linear infinite;
+}
+
+.phantom-red{
+  top: 15px;
+  left: 15px;
+  animation: red 2s linear infinite;
+}
+
+.phantom-green{
+  left: 540px;
+  top: 5px;
+  animation: green 4s linear infinite;
+}
+
+@keyframes rose{
+  0%{
+    left: 15px;
+    top: 5px;
+  }
+
+  50%{
+    left: 850px;
+    top: 5px;
+  }
+
+  100%{
+    left: 15px;
+    top: 5px;
+  }
+}
+
+@keyframes red{
+  0%{
+    top: 15px;
+    left: 15px;
+  }
+
+  50%{
+    left: 15px;
+    top: 200px;
+  }
+
+  100%{
+    top: 15px;
+    left: 15px;
+  }
+}
+
+@keyframes green{
+  0%{
+    left: 540px;
+    top: 5px;
+  }
+
+  50%{
+    left: 15px;
+    top: 5px;
+  }
+
+  100%{
+    left: 540px;
+    top: 5px;
+  }
+}
+
+/* Packman Keyboard */
+
+#packman{
+  position: absolute;
+  width: 40%;
+  left: 30px;
+  top: 5px;
+  z-index: 999;
+}
+
